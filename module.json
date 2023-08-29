@@ -1,0 +1,128 @@
+{
+  "id": "classy-dragons",
+  "title": "Classy Dragons",
+  "description": "Dragons have existed for millenia and are well known for being majestic, powerful, imposing and dangerous … but now it's time for them to get classy! All across Golarion exist a variety of dragons each with their own story to tell and role to play! Why just throw a red dragon at your players for the sake of it when they could interact with an interesting NPC such as the curious & friendly Paatic with a hoard of plants & baubles who could serve as an ally for your party? If thats not your speed, maybe the terrifying Rike, the Bitter Behemoth might be just the thing for you!",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.308"
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "discord": "lonesomechunk",
+      "flags": {}
+    },
+    {
+      "name": "Arkon",
+      "discord": "arkon_the_arkivist",
+      "flags": {}
+    },
+    {
+      "name": "Ruben Salazar (Lyon)",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "Classy Dragons Statblocks",
+      "name": "classy-dragons-statblocks",
+      "path": "packs/classy-dragons-statblocks.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Actor",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Features",
+      "name": "classy-dragons-features",
+      "path": "packs/classy-dragons-features.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Feats",
+      "name": "classy-dragons-feats",
+      "path": "packs/classy-dragons-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Spells",
+      "name": "classy-dragons-spells",
+      "path": "packs/classy-dragons-spells.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Effects",
+      "name": "classy-dragons-effects",
+      "path": "packs/classy-dragons-effects.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Equipment",
+      "name": "classy-dragons-equipment",
+      "path": "packs/classy-dragons-equipment.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Classy Dragons Journal",
+      "name": "classy-dragons-journal",
+      "path": "packs/classy-dragons-journal.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "JournalEntry",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "5.3.2",
+        "verified": "5.3.2"
+      }
+    }]
+  },
+  "packFolders": [
+    {
+      "name": "Golarion Unleashed",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Classy Dragons",
+          "sorting": "m",
+          "packs": [
+            "classy-dragons-journal",
+            "classy-dragons-statblocks",
+            "classy-dragons-features",
+            "classy-dragons-feats",
+            "classy-dragons-spells",
+            "classy-dragons-equipment",
+            "classy-dragons-effects"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/Lonesomechunk/classydragons",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/classydragons/master/module.json",
+  "download": "https://github.com/Lonesomechunk/classydragons/archive/refs/heads/main.zip"
+}
